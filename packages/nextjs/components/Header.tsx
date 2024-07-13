@@ -32,12 +32,22 @@ export const menuLinks: HeaderMenuLink[] = [
   },
   {
     label: "Create Event",
-    href: "/safe",
+    href: "/create",
     icon: <TicketIcon className="h-4 w-4" />,
   },
   {
     label: "My Events",
     href: "/safe",
+    icon: <CakeIcon className="h-4 w-4" />,
+  },
+  {
+    label: "Mint ERC1155",
+    href: "/mint",
+    icon: <CakeIcon className="h-4 w-4" />,
+  },
+  {
+    label: "Buy ERC1155",
+    href: "/buy",
     icon: <CakeIcon className="h-4 w-4" />,
   },
 ];
