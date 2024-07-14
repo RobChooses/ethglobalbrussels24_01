@@ -1,7 +1,7 @@
 #  🏗 Entry to ETHGlobal Brussels // ENS Limited
 
 
-🧪 Scaffoled-ETH 2 forked from Dynamic (Hackathon Starter Kit Version)
+🧪 Scaffold-ETH 2 forked from Dynamic (Hackathon Starter Kit Version)
 
 ## Description of Project
 
