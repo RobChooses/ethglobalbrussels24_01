@@ -17,8 +17,8 @@ const Buy: NextPage = () => {
   return (
     <>
       <div className="text-center mt-8 bg-secondary p-10">
-        <h1 className="text-4xl my-0">Buy ticket</h1>
-        <p className="text-neutral">Buy a ticket</p>
+        <h1 className="text-4xl my-0">Buy ERC 1155</h1>
+        <p className="text-neutral">Buy a ticket as an ERC 1155</p>
       </div>
       <DomainInputBox onSendValue={handleSendValue} />
       <br />
