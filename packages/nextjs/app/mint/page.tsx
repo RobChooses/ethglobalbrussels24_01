@@ -7,13 +7,11 @@ import type { NextPage } from "next";
 
 const Mint: NextPage = () => {
   const [subdomainInputValue, setDomainInputValue] = useState("");
-  const [privateKeyInputValue, setPrivateKeyInputValue] = useState("");
   const [mintButtonClicked, setMintButtonClicked] = useState(false);
 
   const handleSendValue = (value: string) => {
     setDomainInputValue(value);
     setMintButtonClicked(true);
-    setPrivateKeyInputValue(value);
   };
 
   const toggleSharedState = (newValue: boolean) => {
@@ -23,17 +21,13 @@ const Mint: NextPage = () => {
   return (
     <>
       <div className="text-center mt-8 p-10">
-        <h1 className="text-4xl my-0">Mint ERC 1155 tickets</h1>
-        <p className="text-neutral">Mint ERC 1155 tickets</p>
+        <h1 className="text-4xl my-0">Mint subdomains</h1>
+        <p className="text-neutral">Mint tickets as ERC 1155 subdomains</p>
       </div>
       <SubdomainInputForm onSendValue={handleSendValue} />
       <br />
       {mintButtonClicked && (
-        <MintSubdomain
-          subdomainInputValue={subdomainInputValue}
-          privateKeyInputValue={privateKeyInputValue}
-          toggleSharedState={toggleSharedState}
-        />
+        <MintSubdomain subdomainInputValue={subdomainInputValue} toggleSharedState={toggleSharedState} />
       )}
     </>
   );

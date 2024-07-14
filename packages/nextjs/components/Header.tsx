@@ -31,12 +31,12 @@ export const menuLinks: HeaderMenuLink[] = [
     icon: <CakeIcon className="h-4 w-4" />,
   },
   {
-    label: "Mint ERC1155",
+    label: "Mint Subdomains",
     href: "/mint",
     icon: <CakeIcon className="h-4 w-4" />,
   },
   {
-    label: "Buy ERC1155",
+    label: "Buy Subdomain",
     href: "/buy",
     icon: <CakeIcon className="h-4 w-4" />,
   },

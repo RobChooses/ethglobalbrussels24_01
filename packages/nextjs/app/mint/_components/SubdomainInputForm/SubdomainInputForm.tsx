@@ -20,13 +20,14 @@ const SubdomainInputForm: React.FC<Props> = ({ onSendValue }) => {
         <label></label>
         <input
           type="text"
+          className="input border border-primary"
           placeholder="subdomain name, e.g. sub.hello.eth"
           value={inputValue}
           onChange={e => setInputValue(e.target.value)}
         />
-      </div>
-      <div>
-        <button onClick={handleButtonClick}>Mint subdomains</button>
+        <button className="btn btn-primary ml-5 mb-5 " onClick={handleButtonClick}>
+          Mint subdomains
+        </button>
       </div>
     </div>
   );
