@@ -5,7 +5,7 @@
 
 ## Description of Project
 
-ENS Limited allows the issuance of tickets as subdomains (ERC 1155) of an ticket issuer, e.g. owner of hello.eth can issue subdomains test1.hello.eth, test2.hello.eth, etc..
+ENS Limited allows the issuance of tickets as subdomains (ERC 1155) of a ticket issuer, e.g. owner of hello.eth can issue subdomains test1.hello.eth, test2.hello.eth, etc.. to buyers.
 
 
 ## Requirements
