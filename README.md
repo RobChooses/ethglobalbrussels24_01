@@ -1,12 +1,12 @@
-#  🏗 Scaffold-ETH 2 (Hackathon Starter Kit Version)
+#  🏗 Entry to ETHGlobal Brussels // ENS Limited
 
-![](./banner.png)
 
-<h4 align="center">
-  <a href="https://www.youtube.com/watch?v=dkONR9dJD2g">Video Walkthrough</a>
-</h4>
+🧪 Scaffoled-ETH 2 forked from Dynamic (Hackathon Starter Kit Version)
 
-🧪 An open-source, up-to-date toolkit for building decentralized applications (dapps) on the Ethereum blockchain. It's designed to make it easier for developers to create and deploy smart contracts and build user interfaces that interact with those contracts as well as add EthGlobal partner technology such as account abstraction, chain abstraction, onboarding, transaction exploring, EVM networks, custom chains and much more!
+## Description of Project
+
+ENS Limited allows the issuance of tickets as subdomains (ERC 1155) of an ticket issuer, e.g. owner of hello.eth can issue subdomains test1.hello.eth, test2.hello.eth, etc..
+
 
 ## Requirements
 
