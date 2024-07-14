@@ -9,6 +9,20 @@ Project Entry to ETHGlobal Brussels 2024
 ENS Limited allows the issuance of tickets as subdomains (ERC 1155) of a ticket issuer, e.g. owner of hello.eth can issue subdomains test1.hello.eth, test2.hello.eth, etc.. to buyers.
 
 
+## Features
+
+* Social login
+* Viewing of ENS subdomains
+* Creation of tickets as ENS subdomains
+
+
+## Technologies Used
+
+* ENS.js library to create and view subnames
+* Dynamic.xyz for social login and wallet connect
+* Blockscout explorer links
+
+
 ## Requirements
 
 Before you begin, you need to install the following tools:
